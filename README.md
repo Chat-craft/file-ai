@@ -64,6 +64,9 @@ pip install -r requirements.txt
 python -m pytest tests/unit_tests.py
 ```
 
+### Test Run Screenshot 
+<img src = "https://github.com/Chat-craft/.github/blob/main/fileai-tests.png" />
+
 3. Run the project (make sure Ollama server is running):
 ```bash
 uvicorn main:app --port 8001
